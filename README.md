@@ -1,2 +1,2 @@
 # LangGraph
-LangGraph-learning
+Learn-LangGraph
