@@ -120,10 +120,10 @@ style: |
 
 ```bash
 $ mkdir lesson_langgraph && cd $_
-$ python -V
-$ python -m venv _pvenv_
+$ python3 -V
+$ python3 -m venv _pvenv_
 $ source _pvenv_/bin/activate
-$ python -m pip install --upgrade pip
+$ python3 -m pip install --upgrade pip
 ```
 
 ---
