@@ -27,7 +27,7 @@ tools = [get_weather, get_coolest_cities]
 tool_node = ToolNode(tools=tools)
 
 # 创建一个带有工具的模型
-model_with_tools = ChatOpenAI(model_name="gpt-4o", temperature=0).bind_tools(tools)
+model_with_tools = ChatOpenAI(model_name="gpt-4o-mini", temperature=0).bind_tools(tools)
 
 # 调用模型执行用户请求
 result = model_with_tools.invoke(input="请告诉我东京的天气？")
